@@ -1,2 +1,2 @@
 def repeat_str(repeat, string):
-    pass
+    return string*repeat
