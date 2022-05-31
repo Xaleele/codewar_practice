@@ -3,7 +3,7 @@ def find_uniq(arr):
         if arr[n] == arr[n+1]:
             continue
         elif arr[n] != arr[n+1] and arr[n] == arr[n-1]:
-            print(arr[n+1])
+            return(arr[n+1])
             break
 
 
