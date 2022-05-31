@@ -5,7 +5,9 @@ def find_uniq(arr):
         elif arr[n] != arr[n+1] and arr[n] == arr[n-1]:
             return(arr[n+1])
             break
-
+        elif arr[n] != arr[n+1] and arr[n] != arr[n-1]:
+            return(arr[n])
+            break
 
 
 
