@@ -1,2 +1,2 @@
 def alphanumeric(password):
-    pass
+    return password.isalnum()
