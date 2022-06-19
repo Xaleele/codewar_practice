@@ -1,2 +1,6 @@
 def increment_string(strng):
-    pass
+    if strng.isalpha():
+        strng = strng + "1"
+        return strng
+    else:
+        pass
