@@ -1,17 +1,12 @@
 def get_sum(a, b):
+    elist = []
     if a == b:
         return a
-    else:
-        pass
+    elif a < b:
+        for num in range(a,b+1,1):
+            elist.append(num)
+    elif a > b:
+        for num in range(b,a+1,1):
+            elist.append(num)
 
-elist = []
-
-nlist = [1, 3]
-
-nlist.sort()
-
-for num in range(-1,3+1,1):
-    elist.append(num)
-
-print(elist)
-print(sum(elist))
+    return sum(elist)
