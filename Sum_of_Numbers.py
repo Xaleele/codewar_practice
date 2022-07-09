@@ -4,8 +4,14 @@ def get_sum(a, b):
     else:
         pass
 
-nlist = [1, 0, 3]
+elist = []
+
+nlist = [1, 3]
 
 nlist.sort()
 
-print(nlist)
+for num in range(-1,3+1,1):
+    elist.append(num)
+
+print(elist)
+print(sum(elist))
