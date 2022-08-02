@@ -1,4 +1,13 @@
 def remove_smallest(numbers):
-    pass
+    nlist = []
+    zlist = []
+    for number in numbers:
+        if number == min(numbers) and number not in nlist:
+            nlist.append(number)
+            continue
+        else:
+            zlist.append(number)
 
-print(min([1,2,3]))
+    print(zlist)
+
+remove_smallest([1,2,3,4,1,5])
